@@ -3,3 +3,9 @@ git config --global user.name "这里填写用户名"
 git config --global user.email "这里填写邮箱"
 ssh-keygen -t rsa -C "这里填写邮箱"
 --------------------------------------------------------
+*****************git 新建分支并上传到远程仓库*******
+git checkout -b  这里填写新建分支名
+git add * 
+git commit -m "这里填写信息"
+git push origin 这里填写分支名
+-------------------------------------------------------
