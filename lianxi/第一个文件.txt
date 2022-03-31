@@ -1,0 +1,5 @@
+git hash 生成SSH-KEY的步骤
+git config --global user.name "这里填写用户名"
+git config --global user.email "这里填写邮箱"
+ssh-keygen -t rsa -C "这里填写邮箱"
+--------------------------------------------------------
